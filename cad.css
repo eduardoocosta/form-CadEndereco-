@@ -1,0 +1,47 @@
+
+body {
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+ 
+.geralForm {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 50px auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+ 
+h3 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    color: #333; /* Cor do texto do título */
+}
+ 
+.form-label {
+    font-weight: bold; /* Deixa o texto do rótulo em negrito */
+    color: #555; /* Cor do texto dos rótulos */
+}
+ 
+.form-control {
+    border: 1px solid #ced4da; /* Cor da borda dos campos */
+    border-radius: 4px; /* Cantos arredondados nos campos */
+    transition: border-color 0.3s; /* Transição suave na cor da borda */
+}
+ 
+.form-control:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra ao focar */
+}
+ 
+.btn-primary {
+    width: 100%; /* Botão ocupa a largura total */
+    padding: 10px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+ 
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse sobre o botão */
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+}
