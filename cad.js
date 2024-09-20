@@ -11,7 +11,7 @@ const limparFormulario = () =>{
     document.getElementById('uf').value = '';
     document.getElementById('localidade').value = '';
     document.getElementById('complemento').value = '';
-    
+
 }
 
 const eNumero = (numero) => /^[0-9]+$/.test();
@@ -20,6 +20,12 @@ const eNumero = (numero) => /^[0-9]+$/.test();
 // lenght é uma propriedade que verifica a quantidade de caracteres no argumento CEP
 const cepValido = (cep) => cep.lenght == 8 && eNumero (cep);
 
-
+// Função para preencher formulário como campos da API
+const preencherFormulário = (endereco) =>{
+    document.getElementById('logradouro').value = endereco.logradouro;
+    document.getElementById('uf').value = endereco.uf;
+    document.getElementById('bairro').value = endereco.bairro;
+    document.getElementById('localidade').value = endereco.localidade;
+}
 
 
