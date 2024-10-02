@@ -33,7 +33,7 @@ h3 {
 .form-control:focus {
     border-color: #007bff; /* Cor da borda ao focar */
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra ao focar */
-}
+} 
  
 .btn-primary {
     width: 100%; /* Botão ocupa a largura total */
@@ -45,3 +45,4 @@ h3 {
     background-color: #0056b3; /* Cor ao passar o mouse sobre o botão */
     border-color: #0056b3; /* Cor da borda ao passar o mouse */
 }
+
