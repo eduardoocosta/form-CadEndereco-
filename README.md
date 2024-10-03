@@ -13,11 +13,7 @@ Este projeto foi desenvolvido na aula de PWI (Porgramação Web 1). O obejtivo d
 >![tela do sistema](cepincorreto.png)
 ><h2>Caso o usuário digitar algum cep inválido ou incorreto, aparecerá um alert dizendo "CEP incorreto!"<h2>
 
-## Função do Projeto
-A função do projeto é o usuário se cadastrar com seus dados de endereço de forma válida e correta.
-
 # Funções utilizadas:🛠️
-
 >* ``assync``
 >essas funções podem realizar operações que demoram algum tempo, sem bloquear a execução do programa. É uma forma de escrever funções que podem fazer várias coisas ao mesmo tempo, sem travar o programa
 >* ``await``
@@ -49,10 +45,10 @@ registra uma única espera de evento em um único alvo.
 
 ## Tecnlogias utilizadas 🔧
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=black)
 
 
 
