@@ -26,7 +26,7 @@ const preencherFormulario = (endereco) =>{
     document.getElementById('uf').value = endereco.uf
 }
 // FUNÇÃO DE CONSUMO DE API VIA CEP
-// função ASSÍNCRONAS são úteis quando dependemos do resultado de alguma coisa para executar a função.
+// Função ASSÍNCRONAS são úteis quando dependemos do resultado de alguma coisa para executar a função.
 const pesquisarcep = async() => {
     // ASYNC essas funções podem realizar operações que demoram algum tempo, sem bloquear a execução do programa./  é uma forma de escrever funções que podem fazer várias coisas ao mesmo tempo, sem travar o programa
     limparFormulario();
@@ -34,16 +34,19 @@ const pesquisarcep = async() => {
  
     // Função
     if(cepValido(cep.value)){
-        const dados = await fetch(url);
+        //  Função para realizar requisições HTTP assíncronas
         // FETCH é um metodo do js que faz um pedido para via cep, e dar retorno.
+        const dados = await fetch(url);
+        // Await faz a função assync parar
         const addres = await dados.json();
         // JSON  é um formato leve para trocar dados, é usado principalmente para enviar e receber dados entre um cliente e um servidor.
  
-       // Função
+       // Função para converter a célula para uma string
+    // Função para retornar um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão 
         if(addres.hasOwnProperty('erro')){
             alert('CEP não encontrado');
         } else{
-            // Função
+
             preencherFormulario(addres);
         }
     } else{
@@ -51,7 +54,7 @@ const pesquisarcep = async() => {
     }
 }
 // ADICIONAR ESCUTADOR PARA EXECUTAR CONSUMO DE API DA ViaCep
-// Função
+// Função que registra uma única espera de evento em um único alvo.
 document.getElementById('cep').addEventListener('focusout', pesquisarcep);
  
 
