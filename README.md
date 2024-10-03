@@ -11,7 +11,7 @@ Formulário de cadastro de endereço 📋
 Este projeto foi desenvolvido na aula de PWI (Porgramação Web 1). O obejtivo do projeto foi aprender a funçaõ de  limpar formulário e preencher formulário.
 
 >![tela do sistema](cepincorreto.png)
-><h2>Caso o usuário digitar algum cep inválido ou incorreto, aparecerá esse alert<h2>
+><h2>Caso o usuário digitar algum cep inválido ou incorreto, aparecerá um alert dizendo "CEP incorreto!"<h2>
 
 ## Função do Projeto
 A função do projeto é o usuário se cadastrar com seus dados de endereço de forma válida e correta.
