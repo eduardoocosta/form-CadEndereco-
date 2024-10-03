@@ -1,6 +1,6 @@
 <h1 align = "center"
 
-Formulário de cadastro de endereço
+Formulário de cadastro de endereço 📋
 
 ># License
 >![](https://img.shields.io/badge/license-%20Escola%20Marista%20Ir.%20Ac%C3%A1cio-black) ![](https://img.shields.io/badge/version-0.3-white) 
@@ -33,8 +33,19 @@ A função do projeto é o usuário se cadastrar com seus dados de endereço de 
 >* ``addEventListener``
 registra uma única espera de evento em um único alvo.
 
+## Funcionalidades do website
 
-## Funcionalidades
+✔️ Verificação de Campos Obrigatórios;
+
+✔️ Limpar o Formulário;
+
+✔️ Preencher Formulário;
+
+✔️ Validação De CEP;
+
+✔️ Buscar CEP na AP;
+
+✔️ Evento de Foco no Campo CEP;
 
 
 
