@@ -13,7 +13,7 @@ Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada p
 >![tela do sistema](cepincorreto.png)
 ><h2>Caso o usuário digitar algum cep inválido ou incorreto, aparecerá um alert dizendo "CEP incorreto!"<h2>
 
-# Funções utilizadas:🛠️
+# Recursos JS utilizados:🛠️
 >* ``assync``
 >essas funções podem realizar operações que demoram algum tempo, sem bloquear a execução do programa. É uma forma de escrever funções que podem fazer várias coisas ao mesmo tempo, sem travar o programa
 >* ``await``
