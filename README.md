@@ -8,7 +8,7 @@ Formulário de cadastro de endereço 📋
 
 ![tela do sistema](form.png)
 ## Descrição do Projeto
-Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada pelo professor [Leonardo Rocha](https://github.com/leonardossrocha). O objetivo do projeto é aprender a base 
+Este projeto foi desenvolvido na aula de PWI (Programação Web 1), ministrada pelo professor [Leonardo Rocha](https://github.com/leonardossrocha). O objetivo do projeto é aprender a base do que foi ministrado nas aulas, para no futuro ter uma boa experiência para fazer um formulário validado, vale também a prática de documentação.
 
 >![tela do sistema](cepincorreto.png)
 ><h2>Caso o usuário digitar algum cep inválido ou incorreto, aparecerá um alert dizendo "CEP incorreto!"<h2>
@@ -57,6 +57,6 @@ registra uma única espera de evento em um único alvo.
 ## 🔗 Referências
 [ViaCEP](https://viacep.com.br/) 
 
-[Dio](https://www.dio.me/articles/fetch-a-funcao-mais-importante-do-javascript
+[Dio](https://www.dio.me/articles/fetch-a-funcao-mais-importante-do-javascript)
 
-https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON
+[Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
