@@ -28,6 +28,7 @@ h3 {
     border: 1px solid #ced4da; /* Cor da borda dos campos */
     border-radius: 4px; /* Cantos arredondados nos campos */
     transition: border-color 0.3s; /* Transição suave na cor da borda */
+
 }
  
 .form-control:focus {
@@ -46,3 +47,8 @@ h3 {
     border-color: #0056b3; /* Cor da borda ao passar o mouse */
 }
 
+.container {
+    background-color: #007bff;
+    border-radius: 15px;
+    box-shadow: #0056b3;
+}
